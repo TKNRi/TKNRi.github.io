@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family:"Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+.title {
+  color: #02ccba;
+}
+
+.container {
+  max-width:100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  color:white;
+}
+
+.top-wrapper {
+  background-image:url(https://i.gyazo.com/aec42126141f81508e0449ee3fc8dce7.jpg);
+  background-size:cover;
+  background-repeat:repeat-x;
+  padding:180px 0 100px 0;
+  animation:slide 60s linear infinite;
+}
+
+
+
+.container h1 {
+  font-size:45px;
+  color:white;
+  letter-spacing:5px;
+  text-align:center;
+  animation-name:fadein;
+  animation-duration:2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity:0;
+    transform:translateY(20px);
+  }
+  to {
+   opacity:1;
+   transform:translateY(0);
+ }
+}
+
+.btn {
+  padding:6px 24px;
+  color:white;
+  display:inline-block;
+  opacity:0.9;
+  border-radius:4px;
+  margin-top:8px
+}
+
+
+.Instagram {
+  background:linear-gradient(to right,#5478f2 0%,#f23f79 60%,orange 100%);
+  letter-spacing:2px;
+}
+
+.Instagram span{
+  display:inline-block;
+  position:relative;
+  transition:.5s
+}
+
+.Instagram:hover span{
+  transform:rotateX(360deg);
+}
+
+.Instagram:hover {
+  opacity:1;
+}
+
+.Twitter {
+  background-color:#55acee;
+  padding:6px 32px;
+  letter-spacing:3px;
+}
+
+.Twitter:hover {
+  opacity:1;
+}
+
+.Twitter span {
+  display:inline-block;
+  position:relative;
+  transition:.5s
+}
+
+.Twitter:hover span {
+  transform:rotateX(360deg);
+}
+
+.Facebook {
+  background-color:#3b5998;
+  letter-spacing:2px;
+}
+
+.Facebook:hover {
+  opacity:1;
+}
+
+.Facebook span {
+  display:inline-block;
+  position:relative;
+  transition:.5s
+}
+
+.Facebook:hover span {
+  transform:rotateX(360deg);
+}
+
+.fa {
+  margin-right:5px
+}
+
+.profile-wrapper {
+  background:linear-gradient(-45deg,rgba(246,255,0,.8),rgba(255,0,161,.8))fixed;
+  background-size:cover;
+  height:500px;
+  text-align:center;
+  padding-bottom:80px;
+}
+
+.profile-icon {
+  position:relative;
+  height:auto;
+  padding-top:150px;
+  text-align:center;
+}
+
+.profile p {
+  color:black;
+  padding-bottom:30px;
+}
+
+footer {
+  height:60px;
+  background-color:#4C4C4C;
+  padding-top:10px;
+}
+
+footer p {
+  color:white;
+  text-align:center;
+}
+
+@media(max-width:1000px){
+ .item {
+  width:50%;
+ }
+}
+
+@media(max-width:670px){
+ .item {
+  width:100%;
+ }
+}
