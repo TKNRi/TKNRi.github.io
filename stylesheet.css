@@ -165,7 +165,7 @@ a {
 
 .profile p {
   color:black;
-  padding-bottom:30px;
+  margin-bottom:0;
 }
 
 footer {
