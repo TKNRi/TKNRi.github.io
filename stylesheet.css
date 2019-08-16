@@ -27,8 +27,27 @@ a {
   background-size:cover;
   background-repeat:repeat-x;
   padding:180px 0 100px 0;
-  animation:slide 60s linear infinite;
+  -webkit-animation:bgroop 40s linear infinite;
+  animation:bgroop 40s linear infinite;
 }
+
+@-webkit-keyframes bgroop {
+  from {
+    background-position:0 0;
+  }
+  to {
+    background-position:-1170px 0;
+  }
+}
+@keyframes bgroop {
+  from {
+    background-position:0 0;
+  }
+  to {
+    background-position:-1170px 0;
+  }
+}
+
 
 
 
