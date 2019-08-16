@@ -36,7 +36,7 @@ a {
     background-position:0 0;
   }
   to {
-    background-position:-2800px 0;
+    background-position:-2900px 0;
   }
 }
 @keyframes bgroop {
@@ -44,7 +44,7 @@ a {
     background-position:0 0;
   }
   to {
-    background-position:-2800px 0;
+    background-position:-2900px 0;
   }
 }
 
@@ -53,7 +53,6 @@ a {
 
 .container h1 {
   font-size:45px;
-  font-family:monospace;
   color:white;
   line-height:normal;
   margin-top:5px;
