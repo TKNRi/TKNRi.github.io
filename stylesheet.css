@@ -23,7 +23,7 @@ a {
 }
 
 .top-wrapper {
-  background-image:url(https://i.gyazo.com/5cec7e9bf0c510073a8e1ab896fbecea.jpg);
+  background-image:url(https://i.gyazo.com/79742d02e62950429e3ec9babc6292c0.jpg);
   background-size:cover;
   background-repeat:repeat-x;
   padding:180px 0 100px 0;
@@ -36,7 +36,7 @@ a {
     background-position:0 0;
   }
   to {
-    background-position:-2655px 0;
+    background-position:-2800px 0;
   }
 }
 @keyframes bgroop {
@@ -44,7 +44,7 @@ a {
     background-position:0 0;
   }
   to {
-    background-position:-2655px 0;
+    background-position:-2800px 0;
   }
 }
 
