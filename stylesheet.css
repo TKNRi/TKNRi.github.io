@@ -35,6 +35,9 @@ a {
 .container h1 {
   font-size:45px;
   color:white;
+  line-height:normal;
+  margin-top:5px;
+  margin-bottom:30px;
   letter-spacing:5px;
   text-align:center;
   animation-name:fadein;
